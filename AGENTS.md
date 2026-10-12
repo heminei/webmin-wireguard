@@ -8,7 +8,7 @@ Webmin module for managing WireGuard (WGDashboard-style). Perl CGIs plus small v
 - `*.cgi`: pages. `index` (interface list), `view_iface` (status + peers), `edit_iface`/`save_iface`/`action_iface` (reload, boot toggle) plus `start`/`stop`/`restart`/`delete_iface`, `edit_config`/`save_config` (raw config editor), `edit_import`/`save_import` (import a wg-quick config as a new interface), `edit_peer`/`save_peer`/`action_peer`, `show_peer`/`download_peer` (client config + QR), `stats`/`stats_data` (charts + JSON), `edit_defaults`/`save_defaults`, `network_map` (SVG diagram of who routes which network, plus overlap warnings), `backup`/`download_backup`/`restore_backup`/`snapshot_action` (backup, restore, saved copies).
 - `lang/en`: all UI text. `help/*.html`: one help page per option, linked with `&hlink($text{'key'}, 'key')`. Bulgarian translations live in `lang/bg`, `help/*.bg.html`, `config.info.bg` and `desc_bg`/`longdesc_bg` in `module.info`; keep them in step with the English files.
 - `wg-live.js`, `wg-chart.js`, `qrcode.js` (MIT, qrcode-generator 1.4.4): static JS served from the module directory.
-- `config`, `config.info`: module settings. `log_parser.pl`, `install_check.pl`, `module.info`.
+- `config`, `config.info`: module settings. `log_parser.pl`, `install_check.pl`, `uninstall.pl` (removes the stats collector), `module.info`.
 - `package.sh`: builds `wireguard-<version>.wbm.gz` for Webmin's module installer.
 
 ## Conventions

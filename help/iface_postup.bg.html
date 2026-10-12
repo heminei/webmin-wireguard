@@ -1,0 +1,6 @@
+<header>PostUp команди</header>
+Shell команди, изпълнявани с root права от <tt>wg-quick</tt> точно след като
+интерфейсът е вдигнат. Въведете по една команда на ред. <tt>%i</tt> се заменя с
+името на интерфейса.<p>
+Обикновено се използват за правила на firewall и NAT, например :<br>
+<tt>iptables -A FORWARD -i %i -j ACCEPT; iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE</tt>

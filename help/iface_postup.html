@@ -1,0 +1,6 @@
+<header>PostUp commands</header>
+Shell commands run as root by <tt>wg-quick</tt> just after the interface is
+brought up. Enter one command per line. <tt>%i</tt> is replaced by the
+interface name.<p>
+These are typically used for firewall and NAT rules, for example :<br>
+<tt>iptables -A FORWARD -i %i -j ACCEPT; iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE</tt>

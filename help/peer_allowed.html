@@ -1,0 +1,11 @@
+<header>Allowed IPs</header>
+The addresses that this server accepts traffic from, and sends traffic to, for
+this peer. This is normally a single address inside the interface subnet, such
+as <tt>10.0.0.2/32</tt>.<p>
+It is also used as the client's own address in the client config. It must not
+overlap with another peer.<p>
+For a site-to-site peer, such as a router with a network behind it, also add
+that network here, for example <tt>10.0.0.4/32, 192.168.10.0/24</tt>. Traffic
+for <tt>192.168.10.0/24</tt> is then sent to this peer. Other clients must add
+the network to their client allowed IPs to use it. The Network map page shows
+which peer owns which network.

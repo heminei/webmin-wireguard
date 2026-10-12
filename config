@@ -1,0 +1,11 @@
+config_dir=/etc/wireguard
+wg_cmd=wg
+wg_quick_cmd=wg-quick
+default_endpoint=
+default_dns=
+default_keepalive=25
+default_mtu=
+collect_stats=1
+collect_interval=60
+retention_days=30
+backup_keep=20

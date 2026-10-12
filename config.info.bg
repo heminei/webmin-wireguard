@@ -1,0 +1,13 @@
+line1=Системна конфигурация,11
+config_dir=Директория с WireGuard конфигурации,0,30
+wg_cmd=Път до командата wg,0,30
+wg_quick_cmd=Път до командата wg-quick,0,30
+line2=По подразбиране за нови peer-ове,11
+default_endpoint=Хост или IP на сървъра (празно = име на хоста),0,30
+default_dns=DNS сървъри на клиента,0,30
+default_keepalive=Persistent keepalive (секунди),3,Няма,5
+default_mtu=MTU на клиента,3,По подразбиране,5
+line3=Статистика,11
+collect_stats=Събиране на статистика за трафика,1,1-Да,0-Не
+collect_interval=Интервал на събиране (секунди),0,5
+retention_days=Пазене на статистиката (дни),0,5

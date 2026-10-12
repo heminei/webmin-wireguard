@@ -1,0 +1,10 @@
+desc=WireGuard VPN
+longdesc=Manage WireGuard interfaces and peers, share client configs via QR code and monitor traffic.
+desc_bg=WireGuard VPN
+longdesc_bg=Управление на WireGuard интерфейси и peer-ове, споделяне на клиентски конфигурации с QR код и наблюдение на трафика.
+category=net
+os_support=*-linux
+version=1.0
+depends=webmincron
+name=WireGuard
+readonly=0

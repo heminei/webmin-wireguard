@@ -1,0 +1,13 @@
+line1=System configuration,11
+config_dir=WireGuard configuration directory,0,30
+wg_cmd=Path to wg command,0,30
+wg_quick_cmd=Path to wg-quick command,0,30
+line2=New peer defaults,11
+default_endpoint=Server endpoint host or IP (blank = hostname),0,30
+default_dns=Client DNS servers,0,30
+default_keepalive=Persistent keepalive (seconds),3,None,5
+default_mtu=Client MTU,3,Default,5
+line3=Statistics,11
+collect_stats=Collect traffic statistics,1,1-Yes,0-No
+collect_interval=Collection interval (seconds),0,5
+retention_days=Keep statistics for (days),0,5

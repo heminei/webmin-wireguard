@@ -1,0 +1,6 @@
+<header>Client allowed IPs</header>
+The networks that the client sends through the VPN. This is written to the
+<tt>AllowedIPs</tt> line of the client config.<p>
+By default this is the interface subnet, so only traffic to the VPN network
+uses the tunnel. To send all of the client's traffic through the server, use
+<tt>0.0.0.0/0, ::/0</tt>.

@@ -2,6 +2,7 @@
 
 [![Release](https://img.shields.io/github/v/release/heminei/webmin-wireguard)](https://github.com/heminei/webmin-wireguard/releases/latest)
 [![Build](https://img.shields.io/github/actions/workflow/status/heminei/webmin-wireguard/release.yml)](https://github.com/heminei/webmin-wireguard/actions)
+[![License](https://img.shields.io/github/license/heminei/webmin-wireguard)](LICENSE)
 
 Manage WireGuard VPN servers from Webmin and Virtualmin, with a dashboard in the style of [WGDashboard](https://github.com/donaldzou/WGDashboard).
 
@@ -118,6 +119,10 @@ perl -I/tmp/stub -c index.cgi
 See [AGENTS.md](AGENTS.md) for the layout, conventions and testing notes. New text goes in `lang/en`, with a matching Bulgarian string in `lang/bg` and a help page for every new option.
 
 To publish a release, set `version=` in `module.info`, then push a matching tag (`git tag v1.1 && git push origin v1.1`). GitHub Actions builds `wireguard.wbm.gz` and attaches it to the release.
+
+## License
+
+BSD 3-Clause. See [LICENSE](LICENSE).
 
 ## Third-party code
 

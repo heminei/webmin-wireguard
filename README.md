@@ -4,7 +4,7 @@
 [![Build](https://img.shields.io/github/actions/workflow/status/heminei/webmin-wireguard/release.yml)](https://github.com/heminei/webmin-wireguard/actions)
 [![License](https://img.shields.io/github/license/heminei/webmin-wireguard)](LICENSE)
 
-Manage WireGuard VPN servers from Webmin and Virtualmin, with a dashboard in the style of [WGDashboard](https://github.com/donaldzou/WGDashboard).
+Manage WireGuard VPN servers from Webmin and Virtualmin: interfaces, peers, client configs with QR codes, traffic statistics and backups.
 
 The module edits the standard `/etc/wireguard/<interface>.conf` files directly and applies changes with `wg` and `wg-quick`. There is no separate database, and everything stays usable from the command line.
 
